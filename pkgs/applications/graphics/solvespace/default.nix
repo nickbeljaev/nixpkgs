@@ -4,11 +4,11 @@
 }:
 stdenv.mkDerivation rec {
   name = "solvespace-2.3-20170808";
-  rev = "16540b1b2c540a4b44500ac02aaa4493bccfba7e";
+  rev = "c6fc0125a21aa27f89ab6e0bb16037f04bc39fd4";
   src = fetchgit {
     url = https://github.com/solvespace/solvespace;
     inherit rev;
-    sha256 = "1z10i21xf3yagd984lp1hwasnsizx2s3faq3wdzzjngrikr2zn70";
+    sha256 = "06jpmmhdnds5f36z0shirkf6nz175fpkzpd1d7q8l8szwzhiqbl7";
     fetchSubmodules = true;
   };
 
